@@ -1,0 +1,6 @@
+---
+- name: config management in compute engine
+  hosts: compute-engine
+  become: yes
+  roles:
+    - node-exporter
